@@ -33,6 +33,9 @@
 -------- | -------- | ---- | ---- | -------- | ------
 Linux 系统管理技术手册 (第二版) | Linux Administration Handbook | Evi Nemeth, Garth Snyder & Trent R. Hein | 752 | [可借](linux_administration_handbook/README.md) | toy
 Oracle Solaris 10 系统管理基础教程 | Oracle Solaris 10 System Administration Essentials | Oracle Solaris 开发团队 | 327 | [可借](oracle_solaris_10_system_administration_essentials/README.md) | toy
+学习 bash | Learning the bash Shell | Cameron Newbam & Bill Rosenblatt | 356 | [可借](learning_the_bash_shell/README.md) | toy
+无 | From Bash to Z Shell: Conqueering the Command Line | Oliver Kiddle, Jerry Peek & Peter Stephenson | 447 | [可借](from_bash_to_z_shell/README.md) | toy
+Ruby 系统管理实战 | Practical Ruby for System Administration | Andre Ben Hamou | 208 | [可借](practical_ruby_for_system_administration/README.md) | toy
 
 参与
 ----
