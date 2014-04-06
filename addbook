@@ -1,0 +1,52 @@
+#!/usr/bin/env perl
+#
+# name     : addbook, add book
+# author   : Xu Xiaodong <xxdlhy@gmail.com>
+# license  : GPL
+# created  : 2014 Apr 06
+# modified : 2014 Apr 06
+#
+
+use strict;
+use warnings;
+
+usage() unless @ARGV;
+
+my $title = shift;
+$title = add($title);
+make_readme($title);
+print "Done\n";
+
+sub usage {
+    die "$0 <book title>\n";
+}
+
+sub add {
+    my ($title) = @_;
+    $title = lc $title;
+    $title =~ s/ /_/g;
+    print "Making $title directory\n";
+    mkdir $title;
+    return $title;
+}
+
+sub make_readme {
+    my ($title) = @_;
+    my $path    = "$title/README.md";
+    my $content = <<END;
+当前状态
+--------
+
+可借
+
+借阅人员
+--------
+
+借阅者 | 开始时间 | 结束时间 | 联系方式
+------ | -------- | -------- | --------   
+END
+    print "Making $path file\n";
+    open my $in, '>', $path or die $!;
+    print $in $content;
+    close $in;
+}
