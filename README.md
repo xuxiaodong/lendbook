@@ -31,8 +31,31 @@
 
 中文书名 | 英文书名 | 作者 | 页数 | 借阅状态 | 所有者
 -------- | -------- | ---- | ---- | -------- | ------
-Linux 系统管理技术手册 (第二版) | Linux Administration Handbook | Evi Nemeth, Garth Snyder & Trent R. Hein | 752 | 可借 | toy
-Oracle Solaris 10 系统管理基础教程 | Oracle Solaris 10 System Administration Essentials | Oracle Solaris 开发团队 | 327 | 可借 | toy
+Linux 系统管理技术手册 (第二版) | Linux Administration Handbook | Evi Nemeth, Garth Snyder & Trent R. Hein | 752 | [可借](linux_administration_handbook/README.md) | toy
+Oracle Solaris 10 系统管理基础教程 | Oracle Solaris 10 System Administration Essentials | Oracle Solaris 开发团队 | 327 | [可借](oracle_solaris_10_system_administration_essentials/README.md) | toy
+
+参与
+----
+
+如果你是借阅者：
+
+1. Fork 本项目。
+
+2. 将你的相关信息添加到所借书籍目录下的 README.md 文件中。
+
+3. 发回 Pull Request。
+
+4. 约定时间和地点取书。
+
+如果你是书籍所有者：
+
+1. Fork 本项目。
+
+2. 执行 `addbook` 添加新的书籍目录，并添加相应个人信息。
+
+3. 发回 Pull Request。
+
+4. 等候借阅者与你联系取书事宜。
 
 联系
 ----
