@@ -41,6 +41,8 @@ Oracle Solaris 10 系统管理基础教程 | Oracle Solaris 10 System Administra
 Shell 脚本专家指南 | Expert Shell Scripting | Ron Peters | 222 | [可借](expert_shell_scripting/README.md) | toy
 Ruby 系统管理实战 | Practical Ruby for System Administration | Andre Ben Hamou | 208 | [可借](practical_ruby_for_system_administration/README.md) | toy
 高阶 Perl | Higher-Order Perl: Transforming Programs with Programs | Mark Jason Dominus | 375 | [可借](higher_order_perl/README.md) | toy
+Ruby 最佳实践 (影印版) | Ruby Best Practices | Gregory T. Brown | 309 | [可借](ruby_best_practices/README.md) | toy
+重构 (Ruby 版) | Refactoring: Ruby Edition | Jay Fields, Shane Harvie & Martin Fowler | 294 | [可借](refactoring_ruby_edition/README.md) | toy
 
 参与
 ----
